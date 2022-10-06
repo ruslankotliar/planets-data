@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Earth",
+        "description": "Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.",
+        "img": "./src/images/17_earth.png",
+        "yearLength": "365.25 DAYS",
+        "fromSun": "1",
+        "moons": "1",
+        "nameSake": "VARIATION OF 'THE GROUND' IN MANY LANGUAGES"
+    },
+    {
+        "name": "Mars",
+        "description": "Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was—billions of years ago—wetter and warmer, with a thicker atmosphere.",
+        "img": "./src/images/19_mars.png",
+        "yearLength": "1.88 EARTH YEARS",
+        "fromSun": "1.5 AU",
+        "moons": "2",
+        "nameSake": "ROMAN GOD OF WAR"
+    },
+    {
+        "name": "Saturn",
+        "description": "Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's.",
+        "img": "./src/images/28_saturn.png",
+        "yearLength": "29.45 EARTH YEARS",
+        "fromSun": "9.5 AU",
+        "moons": "62",
+        "nameSake": "FATHER OF JUPITER"
+    },
+    {
+        "name": "Jupiter",
+        "description": "Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth.",
+        "img": "./src/images/16_jupiter_new.png",
+        "yearLength": "11.86 EARTH YEARS",
+        "fromSun": "5.2 AU",
+        "moons": "79",
+        "nameSake": "KING OF THE ROMAN GODS"
+    },
+    {
+        "name": "Mercury",
+        "description": "Mercury—the smallest planet in our solar system and closest to the Sun—is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.",
+        "img": "./src/images/18_mercury_new.png",
+        "yearLength": "88 EARTH DAYS",
+        "fromSun": "0.4 AU",
+        "moons": "0",
+        "nameSake": "ROMAN GOD OF SPEED"
+    }
+    
+]

@@ -1,0 +1,105 @@
+@import 'config';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 10rem;
+    background-color: $dark-color;
+    align-items: center;
+
+    &-logo:hover {
+        color: lighten($primary-color, 10%);
+        transform: scale(1.1);
+    } 
+
+    &-planets {
+        list-style-type: none;
+
+        li {
+            display: inline;
+            margin-left: 2rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+
+            &:hover {
+                color: lighten($primary-color, 10%);
+                transform: scale(0.9);
+            }
+        }
+    }
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 5rem;
+    margin: 5rem 5rem;
+
+    &-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    &-info {
+        background-color: rgba(19, 19, 19, 0.5);
+        border-radius: 5%;
+        height: 35rem;
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: larger;
+        }
+
+        &-data {
+            display: grid;
+            margin: 2rem auto;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                @include set-data();
+            }
+        }
+        
+        &-namesake {
+            margin-top: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            @include set-data();
+
+            h5 {
+                width: 90%
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    h4 {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
